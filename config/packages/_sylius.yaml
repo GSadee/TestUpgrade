@@ -11,24 +11,6 @@ imports:
 parameters:
     sylius_core.public_dir: '%kernel.project_dir%/public'
 
-sylius_addressing:
-    resources:
-        address:
-            classes:
-                model: App\Entity\Addressing\Address
-        country:
-            classes:
-                model: App\Entity\Addressing\Country
-        province:
-            classes:
-                model: App\Entity\Addressing\Province
-        zone:
-            classes:
-                model: App\Entity\Addressing\Zone
-        zone_member:
-            classes:
-                model: App\Entity\Addressing\ZoneMember
-
 sylius_admin_api:
     resources:
         api_client:
