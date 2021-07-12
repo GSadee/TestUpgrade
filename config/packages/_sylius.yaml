@@ -248,10 +248,3 @@ sylius_user:
 sylius_shop:
     product_grid:
         include_all_descendants: true
-
-sylius_theme:
-    sources:
-        filesystem:
-            scan_depth: 1
-            directories:
-                - "%kernel.project_dir%/themes"
